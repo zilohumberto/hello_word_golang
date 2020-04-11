@@ -1,4 +1,4 @@
-package mqtt_tools
+package mqtttools
 
 import (
 	"fmt"
