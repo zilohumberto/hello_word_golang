@@ -1,2 +1,2 @@
 # hello_word_golang
-Firsts code in Golang
+First code in Golang
