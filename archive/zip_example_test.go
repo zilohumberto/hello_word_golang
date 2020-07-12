@@ -6,6 +6,7 @@ import (
 )
 
 var filename = "test_zip.zip"
+
 func TestMain(m *testing.M) {
 	code := m.Run()
 	shutdown()
