@@ -1,7 +1,5 @@
 package hashmultimaps
 
-import "fmt"
-
 func New() *HashMultiMap{
 	return &HashMultiMap{make(map[interface{}][]interface{})}
 }
@@ -78,7 +76,6 @@ func (h * HashMultiMap) Remove(key interface{}, value interface{}){
 	if index == -1 {
 		return
 	}
-	fmt.Println(index)
 	newValues := make([]interface{}, 0)
 	newValues = append(newValues, values[:index]...)
 	h.data[key] = append(newValues, values[index+1:]...)
